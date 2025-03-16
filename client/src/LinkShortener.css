@@ -1,0 +1,10 @@
+.shortened-url {
+  font-size: 1.2rem;
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.shortened-url:hover {
+  color: #0056b3;
+}
