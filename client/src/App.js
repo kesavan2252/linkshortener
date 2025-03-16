@@ -26,7 +26,7 @@ const LinkShortener = () => {
             console.log('Full Response from backend:', response);
 
             if (response.data && response.data.shortenedUrl) {
-                const fullShortenedUrl = `https://linkshortener-server.vercel.app/${response.data.shortenedUrl}`;
+                const fullShortenedUrl = `${response.data.shortenedUrl}`;
                 setShortenedUrl(fullShortenedUrl);
                 console.log('Shortened URL:', fullShortenedUrl);
             } else {
