@@ -21,7 +21,7 @@ const LinkShortener = () => {
             console.log('Sending URL to backend:', inputUrl);
 
             // Use the deployed backend URL instead of localhost
-            const response = await axios.post('https://vercel.com/kesavan-ts-projects-2f4ff1ae/linkshortener-server/5CM5ZDNL6cPKTUHsgE3GWKbU3NPA', { url: inputUrl });
+            const response = await axios.post('https://linkshortener-server.vercel.app/shorten', { url: inputUrl });
 
             console.log('Full Response from backend:', response);
 
