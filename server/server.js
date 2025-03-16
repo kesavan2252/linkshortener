@@ -5,6 +5,9 @@ const app = express();
 
 app.use(cors());
 app.use(express.json()); // Middleware to parse JSON
+app.get('/', (req, res) => {
+    res.send('Welcome to the Link Shortener API. Use POST /shorten to shorten URLs.');
+});
 
 app.post('/shorten', async (req, res) => {
     try {
