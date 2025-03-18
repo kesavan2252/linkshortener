@@ -103,8 +103,8 @@ npm run dev
 
 ## 📩 Contact
 For any queries or issues, feel free to reach out:
-- **GitHub:** [Your GitHub Profile](https://github.com/kesavan2522)
-- **Email:** your-email@example.com
+- **GitHub:** [GitHub Profile](https://github.com/kesavan2522)
+- **Email:** suryakesavan6@gmail.com
 
 ---
 
