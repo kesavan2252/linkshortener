@@ -12,8 +12,7 @@ A simple URL shortener built with **React (frontend)** and **Node.js with Expres
 
 ## 📌 Tech Stack
 - **Frontend:** React, Axios
-- **Backend:** Node.js, Express, PostgreSQL
-- **Database:** PostgreSQL (Local)
+- **Backend:** Rapid API
 
 ---
 
@@ -60,7 +59,7 @@ npm install
 ```
 
 ### 🔹 7. Update API URL in `LinkShortener.js`
-> Open `frontend/src/LinkShortener.js` and replace the **API URL**:
+> Open `frontend/src/App.js` and replace the **API URL**:
 ```js
 const response = await axios.post('http://localhost:5000/shorten', { url: inputUrl });
 const fullShortenedUrl = `http://localhost:5000/${response.data.shortenedUrl}`;
@@ -83,7 +82,7 @@ npm run dev
  ┃ ┗ 📜 .env
  ┣ 📂 frontend
  ┃ ┣ 📂 src
- ┃ ┃ ┣ 📜 LinkShortener.js
+ ┃ ┃ ┣ 📜 App.js
  ┃ ┃ ┗ 📜 App.css
  ┃ ┣ 📜 package.json
  ┃ ┗ 📜 index.html
@@ -118,5 +117,3 @@ For any queries or issues, feel free to reach out:
 - Code changes required (`localhost:5000`)  
 - API endpoints  
 - Project structure  
-
-Let me know if you need modifications! 🚀
